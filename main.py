@@ -44,28 +44,3 @@ if __name__ == "__main__":
                     continue
         timer.sleep(2)
 
-        # for i in range(0, len(trains)):
-            
-        #     print(i)
-            # try:
-            #     reservation = srt.reserve(trains[i])
-            #     print(reservation)
-            # except:
-            #     continue
-        
-        # if len(trains) != 0:
-        #     try:
-        #         # reservation = srt.reserve(trains[0])
-        #         # print(reservation)
-        #         continue
-        #     except:
-        #         continue
-
-    # [[SRT] 09월 30일, 수서~부산(15:00~17:34) 특실 예약가능, 일반실 예약가능,
-    # [SRT] 09월 30일, 수서~부산(15:30~18:06) 특실 예약가능, 일반실 예약가능,
-    # [SRT] 09월 30일, 수서~부산(16:00~18:24) 특실 매진, 일반실 예약가능,
-    # [SRT] 09월 30일, 수서~부산(16:25~18:45) 특실 예약가능, 일반실 예약가능, ...]
-
-    # reservation = srt.reserve(trains[1])
-    # reservation
-    # [SRT] 09월 30일, 수서~부산(15:30~18:06) 53700원(1석), 구입기한 09월 20일 23:38
