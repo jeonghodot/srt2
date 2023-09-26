@@ -5,14 +5,14 @@ import telegram
 import time as timer
 
 if __name__ == "__main__":
-    api_key = '5957545379:AAFAHTqrMAqMAWUsD9EkT3XvLcsu0snQgRU'
-    chatId = '5517769456'
+    api_key = ''
+    chatId = ''
     bot = telegram.Bot(token=api_key)
     for item in bot.getUpdates():
         print(item)
 
 
-    srt = SRT("010-4442-5552", "Dighwjdgh3#")
+    srt = SRT("", "")
     dep = '수서'
     arr = '동대구'
     # date = '20231005'
