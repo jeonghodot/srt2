@@ -3,7 +3,7 @@ from SRT import SRT , SeatType, Adult, Child
 
 if __name__ == "__main__":
     
-    srt = SRT("010-4442-5552", "Dighwjdgh3#")
+    srt = SRT("", "")
     
     reservations = srt.get_reservations()
     print(reservations)
