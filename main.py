@@ -59,4 +59,5 @@ if __name__ == "__main__":
                 except:
                     continue
         timer.sleep(random.uniform(0.0, 2.0))
+    bot.sendMessage(chat_id=chatId, text="[SRT] Reservation finished")
     
