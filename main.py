@@ -1,5 +1,5 @@
 #pip install python-telegram-bot==13.14
-#python ./main.py --id 010-4442-5552 --pw Dighwjdgh3# --dep 수서 --arr 동대구 --date 20230929 --start 100000 --end 120000 --iter 3 --seat 일반실
+
 from SRT import SRT , SeatType, Adult, Child
 import telegram
 import time as timer
