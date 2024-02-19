@@ -16,15 +16,15 @@ def restart():
     subprocess.run([python_executable, script_path])
     
 if __name__ == "__main__":
-    api_key = '5957545379:AAFAHTqrMAqMAWUsD9EkT3XvLcsu0snQgRU'
-    chatId = '5517769456'
+    api_key = ''
+    chatId = ''
     bot = telegram.Bot(token=api_key)
     for item in bot.getUpdates():
         print(item)
     
     parser = argparse.ArgumentParser(description='SRT Reservation')
-    parser.add_argument('--id', default="010-4442-5552")
-    parser.add_argument('--pw', default="Dighwjdgh3#")
+    parser.add_argument('--id', default="")
+    parser.add_argument('--pw', default="")
     parser.add_argument('--dep', default="동대구")
     parser.add_argument('--arr', default="수서")
     parser.add_argument('--date', default="20240220")
