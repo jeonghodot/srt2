@@ -7,8 +7,8 @@ import argparse
 import random
 
 if __name__ == "__main__":
-    api_key = '5957545379:AAFAHTqrMAqMAWUsD9EkT3XvLcsu0snQgRV'
-    chatId = '5517769457'
+    api_key = ''
+    chatId = ''
     bot = telegram.Bot(token=api_key)
     for item in bot.getUpdates():
         print(item)
